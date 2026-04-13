@@ -198,29 +198,7 @@ a:hover{
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-}
-.hero-section.bg--img {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-.hero-section.blur--purple:after {
-  position: absolute;
-  content: '';
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  top: -30%;
-  left: 0;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: scroll;
-  opacity: 0.2;
-}
-.about-main-txt h2{
+}.about-main-txt h2{
   line-height: 1.3;
   margin-bottom: 25px;
   font-size: 2.5rem;
