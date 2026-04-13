@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pet Paradigm Professionals</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="https://fav.farm/contact" />
+  <meta name="description" content="Paradigm Pet Professional,pet consultation, pet care consultation.">
+
+  <meta property="og:title" content="pet consultation">
+  <meta property="og:type" content="Paradigm Pet Professional website">
+  <meta property="og:url" content="Paradigm Pet Professional">
+  <meta property="og:image" content="pet_logo.png">
+  <meta property="og:image:alt" content="Paradigm Pet Professional">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/pet_icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+<header class="site-header">
+  <div class="logo">
+    <a href="index.html">
+      <img src="img/pet-logo.png" alt="Pet Paradigm Professional logo"></a>
+  </div>
+
+  <nav class="container">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="dog.html">Dog Owners</a></li>
+      <li><a href="cat.html">Cat Owners</a></li>
+      <li><a href="fish.html">Fish Owners</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="consultation.html" class="active">Consultation</a></li>
+    </ul>
+  </nav>
+
+  <div class="search-container">
+    <form action="searchForm">
+      <input type="searchText" placeholder="Search..." id="searchText"name="Search">
+      <button type="submit" id="fetchSubmit" ><i class="fa fa-search"></i>Fetch</button>
+    </form>
+  </div>
+</header>
+
+
+<section class="contact-page">
+  <h1>Pexperts Consult </h1>
+  <div class="contact-container">
+
+    <form name="contactform">
+      <div class="contact-input">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Full name*..">
+      </div>
+
+      <div class="contact-input">
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email" placeholder="Email Address*..">
+        <label for="confirm-email">Confirm Email Address</label>
+        <input type="text" id="confirm-email" name="confirmEmail" placeholder="Re-type your email Address*..">
+      </div>
+
+      <div class="contact-input">
+        <label for="phone number">Phone Number</label>
+        <input type="text" id="phone number" name="lastname" placeholder="Enter your preferred phone number*..">
+      </div>
+
+      <div class="contact-input">
+        <label for="zone">Timezone</label>
+        <select id="zone" name="timezone">
+          <option value="usa">EST</option>
+          <option value="usa">PST</option>
+        </select>
+      </div>
+
+      <div class="contact-input">
+        <label for="petname">Pet's Name</label>
+        <input type="text" id="petname" name="lastname" placeholder="Pet's name*..">
+      </div>
+
+      <div class="contact-input">
+        <label for="animaltype"> Type of Animal</label>
+        <input type="text" id="animaltype" name="lastname" placeholder="Cat, Dog or Fish*..">
+      </div>
+
+      <div class="contact-input">
+        <label for="animaltype"> Pet's Age</label>
+        <input type="text" id="animaltype" name="lastname" placeholder="Pet's age*..">
+      </div>
+
+      <div class="contact-input">
+        <label for="subject">Additional Details</label>
+        <textarea id="subject" name="subject" placeholder="Include Your pet's name, age and health concerns.." style="height:200px"></textarea>
+      </div>
+
+      <div class="button">
+        <button type="submit" value="Submit" onclick="consult()">Submit</button>
+      </div>
+
+    </form>
+
+  </div>
+</section>
+
+
+
+
+
+<footer class="footer-layout">
+  <section class="footer-links">
+    <div class="footer-container">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h6 class="footer-title">
+            <i class="fas fa-gem icon-gap"></i> Paradigm Pet Professional
+          </h6>
+          <p> Evidence-based pet care advice for every pet lover</p>
+          <div>
+            <img class="floatimg" src="img/pet-logo.png" alt="Pet logo">
+          </div>
+
+        </div>
+
+        <div class="footer-col">
+          <h6 class="footer-title">Useful links</h6>
+          <p><a href="index.html" target="_blank" class="text-reset">Home</a></p>
+          <p><a href="about.html" class="text-reset">About</a> </p>
+
+          <div class="dropdown">
+            <p class="dropbtn">Pets</p>
+            <div class="dropdown-content">
+              <a href="dog.html">Dog Owners</a>
+              <a href="cat.html">Cat Owners</a>
+              <a href="Fish.html">Fish Owners</a>
+            </div>
+          </div>
+          <p><a href="consultation.html" target="_blank" class="text-reset">Consultation</a> </p>
+        </div>
+
+        <div class="footer-contact">
+          <h6 class="footer-title">Contact</h6>
+          <p><i class="fas fa-home"></i> Duluth, GA US</p>
+          <p><a href="mailto:tlawal8@wgu.edu"><i class="fas fa-envelope"></i> paradigm@example.com</a></p>
+          <p><a href="tel:+6785510906"><i class="fas fa-phone"></i> (678) 551 0906</a></p>
+        </div>
+
+        <div class="social-links-group">
+          <h6 class="footer-title">Social Links</h6>
+          <p><a href="#"><img src="img/instagram.png"/></a>Instagram</p>
+          <p><a href="#"><img src="img/twitter.png"/></a>Twitter</p>
+          <p><a href="#"><img src="img/linkedin.png"/></a>LinkedIn</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
+
+
+<div class="footer-copyright">© 2026 Copyright:
+  <a href="http://tokslaw.net/" target="_blank">Tokslaw</a>
+</div>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
